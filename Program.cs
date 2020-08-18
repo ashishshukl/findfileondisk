@@ -60,7 +60,7 @@ namespace findfileondisk
             //        FileInfo[] subfileInfos = directoryInfo.GetFiles();
             //    }
             //}
-
+            Console.WriteLine( " comment added");
             Console.ReadKey();
         }
     }
