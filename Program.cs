@@ -12,7 +12,7 @@ namespace findfileondisk
         static void Main(string[] args)
         {
             //string partialName = "171_s";
-            Console.WriteLine("enter the file to be searched");
+            Console.WriteLine("enter  file to be searched");
             string partialName =  Console.ReadLine();
             DirectoryInfo hdDirectoryInWhichToSearch = new DirectoryInfo(@"E:\");
             //FileInfo[] filesInDir = hdDirectoryInWhichToSearch.GetFiles("*" + partialName + "*.*");
